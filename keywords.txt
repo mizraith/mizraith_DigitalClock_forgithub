@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map for mizraith_DigitalClock
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+mizraith_DigitalClock	KEYWORD1
+DigitalClock		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+update	   	 	KEYWORD2
+getDisplay1		KEYWORD2
+getDisplay2	 	KEYWORD2
+handleInputEvent	KEYWORD2
+setUserString		KEYWORD2
+updateTemperature	KEYWORD2
+setTime			KEYWORD2
+getTime			KEYWORD2
+
+#######################################
+# Main Variables and Data (KEYWORD3)
+#######################################
+
+NOW			KEYWORD3
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+Intro_String    		LITERAL1
+Info_String			LITERAL1
+DEBUG_STATE_TRANSITIONS		LITERAL1
+DISPLAY_TO_SERIAL		LITERAL1
+INPUT_EVENT_OFFSET		LITERAL1
+MAX_NUMBER_OF_INPUT_EVENTS	LITERAL1
+BUTTON_1_EVENT			LITERAL1
+BUTTON_2_EVENT			LITERAL1
+BUTTON_3_EVENT			LITERAL1
+BUTTON_4_EVENT			LITERAL1
+ADJSUT_EVENT			LITERAL1
+
