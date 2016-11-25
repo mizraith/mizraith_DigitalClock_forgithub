@@ -1,5 +1,9 @@
 mizraith_DigitalClock package
 
+THIS VERSION IS COMPATIBLE WITH ARDUINO 1.06   
+Arduino version after 1.56 change the gcc compiler.  This version will not compile under 1.56+.  A new version is in the works.
+
+
 The Digital Clock package is a lot more complicated than I originally imagined it would be.  In the end, a table-driven state machine (stored in PROGMEM to save precious RAM) handles a variety of user inputs, including those from an encoder.  
 
 The advantages of the table driven state machine are ease of expansion and adjustment to the event handling.  Some DEBUG and TEST functions are provided to verify underlying code functionality (as well as stress-test the state machine itself).  
